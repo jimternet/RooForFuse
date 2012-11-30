@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_us_hennepin_domain_JunkEntity" modelAttribute="junkEntity" path="/junkentitys" render="${empty dependencies}" z="XzDwxpKH+yO3qFUjlZpNUelsS18=">
+        <field:input field="name" id="c_us_hennepin_domain_JunkEntity_name" z="hEaSduq5kAZrilwLfg4218Gg2bo="/>
+        <field:datetime dateTimePattern="${junkEntity_dateforsomereason_date_format}" field="dateForSomeReason" id="c_us_hennepin_domain_JunkEntity_dateForSomeReason" z="Es+V7GR4uVebRbpWznH5je+vZs4="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_us_hennepin_domain_JunkEntity" render="${not empty dependencies}" z="TdhZE6lgTHFfDdORTKS6OXLzLI4="/>
+</div>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_us_hennepin_domain_JunkEntity" modelAttribute="junkEntity" path="/junkentitys" versionField="Version" z="AGMrInZsXmXiLnGywfF4IYVZyDc=">
+        <field:input field="name" id="c_us_hennepin_domain_JunkEntity_name" z="hEaSduq5kAZrilwLfg4218Gg2bo="/>
+        <field:datetime dateTimePattern="${junkEntity_dateforsomereason_date_format}" field="dateForSomeReason" id="c_us_hennepin_domain_JunkEntity_dateForSomeReason" z="Es+V7GR4uVebRbpWznH5je+vZs4="/>
+    </form:update>
+</div>

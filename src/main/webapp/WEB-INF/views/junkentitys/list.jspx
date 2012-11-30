@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_us_hennepin_domain_JunkEntity" items="${junkentitys}" z="fXL+bjpwBIGRz+9aBjwd8JxPrLM=">
+        <table:table data="${junkentitys}" id="l_us_hennepin_domain_JunkEntity" path="/junkentitys" z="b5DiW/LINsVnieKZAh1129LCxk4=">
+            <table:column id="c_us_hennepin_domain_JunkEntity_name" property="name" z="D+ET1kiKffeFJJ+pBO3F5fGSPYc="/>
+            <table:column date="true" dateTimePattern="${junkEntity_dateforsomereason_date_format}" id="c_us_hennepin_domain_JunkEntity_dateForSomeReason" property="dateForSomeReason" z="YaOyQIwIn1jGj/kuKm2V09jFQD4="/>
+        </table:table>
+    </page:list>
+</div>

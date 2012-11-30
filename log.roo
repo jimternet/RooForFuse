@@ -1,0 +1,17 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-11-30 09:48:22
+project --topLevelPackage us.hennepin --projectName RooForFuse --java 6 --packaging JAR
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-11-30 09:48:35
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-11-30 09:51:24
+jpa setup --database H2_IN_MEMORY --provider HIBERNATE 
+entity jpa --class us.hennepin.domain.BaseEntity --abstract true 
+// [failed] entity jpa --class ~.domain.TestEntity --testAutomatically true 
+// [failed] field string --fieldName name 
+entity jpa --class ~.domain.JunkEntity --testAutomatically true 
+field string --fieldName name 
+field file --fieldName picture --contentType JPG
+web mvc setup 
+web mvc all --package us.hennepin.web 
+focus --class ~.domain.JunkEntity
+field date --fieldName dateForSomeReason --type java.util.Date
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-11-30 10:15:04
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-11-30 10:15:22
